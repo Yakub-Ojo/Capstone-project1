@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&family=Lato:ital,wght@0,400;0,700;1,900&display=swap');
+
+body {
+font-family: 'Lato', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+header {
+  background-image: url(assets/icons_logos/main-bg.jpg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hidden {
+  display: none;
+}
+
+.ham-div { 
+  margin: 0 10px 40px 20px;
+}
+
+.ham-div i { 
+  font-size: 50px;
+}
+
+.heading {
+  padding: 0 10px 10px 40px;
+}
+.heading h1 {
+  color: #ec5242;
+  font-size: xx-large;
+  font-weight: 900;
+  line-height: 44px;
+  
+}
+
+.abt-conf {
+  color: #d3d3d3;
+  line-height: 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.date-time {
+  font-size: 20px;
+  font-weight: 900;
+  color: #d1afaf;
+}
+
+.venue {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.programs {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto;
+  background-image: url(assets/Hexagon.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  padding: 8px 12px;
+}
+ .programs h2 {
+  text-align: center;
+  color: #d3d3d3;
+ }
+
+.program-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  gap: 20px;
+  background-color: #3b3e45;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  mix-blend-mode:screen;
+  backdrop-filter: blur(-5px);
+}
+/* 
+.program-item img {
+  width: 100%;
+} */
+
+.program-item img {
+  width: 50px;
+  margin: 0;
+}
+
+.program-item span {
+  width: 50px;
+  margin: 0;
+  color: #ec5242
+}
+
+.program-item p {
+  width: 200px;
+  color: #d3d3d3;
+}
+
+.programs button {
+  background-color: #ec5242;
+  margin: 20px 25px;
+  padding: 30px 12px;
+  font-size: 22px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  mix-blend-mode:screen;
+  backdrop-filter: blur(-5px);
+}
+
+footer {
+  background-color: #272a31;
+  gap: 20px;
+  align-items: center;
+  padding: 8px 12px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  color: #d3d3d3;
+  font-size: 10px;
+  line-height: 12px;
+
+}
+
+.f-logo {
+}
+.f-logo img {
+  width: 100%;
+}
+
+.organizer {
+}

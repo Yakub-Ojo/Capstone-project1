@@ -6,17 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><Agro-conference></title>
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&family=Lato:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
     <nav>
-      <section class="top_menu">
+      <section class="top_menu hidden">
         <i class="uil uil-facebook-f"></i>
         <i class="uil uil-twitter"></i>
         <span>English</span>
       </section>
-      <section class="nav_menu">
+
+      <div class="ham-div">
+        <i class="uil uil-bars hamburger"></i>
+      </div>
+
+      <section class="nav_menu hidden">
         <div><img src="assets/icons_logos/Agrico_logo.jpg" alt="Agrico_logo"></div>
         <div><a href="">Home</a></div>
         <div><a href="">Conference</a></div>
@@ -28,62 +37,66 @@
         <div><a href="">Contact Us</a></div>
       </section>
     </nav>
+
+    <section class="heading">
+      <h1>
+        THE 10TH INTERNATIONAL CONFERENCE ON AGRICULTURE 2023
+      </h1>
+        
+      <div class="abt-conf">
+        We hope the AGRICO 2023 unites diverse scholars, researches, 
+        activists, academics, and case studies from all over the world, in parallel sessions while offering many networking and 
+        publishing opportunities.
+      </div>
+      <div class="date-time">
+        2023.09.18 (Mon) ~ 19 (Tue) <br>
+        <span class="venue">@ Al-Balqa Applied University, Jordan.</span> 
+        
+      </div>
+    </section>
   </header>
-  
+
   <main>
     <section class="main-page">
-      <section class="heading">
-        <div>
-          THE 10TH INTERNATIONAL CONFERENCE ON AGRICULTURE 2023 THEME: “GLOBAL FOOD SECURITY: STOPPING CROP LOSSES”</div>
-        <div>
-          Welcome to the 10th International Conference on Agriculture 2023 which will take place from the 18th– 19th 
-          September 2023 September 2023 in Hybrid Platform. We hope the AGRICO 2023 unites diverse scholars, researches, 
-          activists, academics, and case studies from all over the world, in parallel sessions while offering many networking and 
-          publishing opportunities.
-        </div>
-        <div>
-          2023.09.18 (Mon) ~ 19 (Tue) 
-          @ Al-Balqa Applied University, Jordan.
-        </div>
-      </section>
       <section class="programs">
         <h2>Major Programs</h2>
-        <div>
+        <div class="program-item">
           <img src="assets/icons_logos/program_icon_01.png" alt="conference-icon">
-          <p>Conference</p>
-          <p>AGRICO 2023 seeks to bring together governments, academia, civil society, the private sector, and other stakeholders 
+          <span>Conference</span>
+          <p>AGRICO 2023 seeks to bring together governments, academia, and other stakeholders 
             to develop and implement innovative solutions to the challenges of food security and agricultural development.
           </p>
         </div>
-        <div>
-          <i class="uil uil-file-alt"></i>
-          <p>Paper Submisiion</p>
+        <div class="program-item">
+          <img src="assets/icons_logos/program_icon_02.svg" alt="program-icon2">
+          <span>Paper Submisiion</span>
           <p>AGRICO 2023 is a premier event that brings together 85+ Academics, Researchers, Scholars, Activists Industry Leaders and 
             Professional from countries around the world to present their latest research ideas, development, and applications in all a
             reas in the field of agriculture.
           </p>
         </div>
-        <div>
-          <img src="assets/icons_logos/icons8-publication-64.png" alt="pub-icon">
-          <p>Publication</p>
-          <p>We are dedicated to support you through every phase of your journey in research publication. 
-            With the aim of locating your research to the right destination, International Conference on A
-            griculture (AGRICO) 2023 has amplified its publication opportunities by partnering with TIIKM Publishing!
-            we believe your paper deserves to meet its ultimate research destination!
+        <div class="program-item">
+          <img src="assets/icons_logos/program_icon_03.svg" alt="program-icon2">
+          <span>Publication</span>
+          <p>AGRICO 2023 are dedicated to support you through every phase of your journey in research publication. 
+            With the aim of locating your research to the right destination.
           </p>
         </div>
-        <div>
-          
-          <img src="assets/icons_logos/register.png" alt="">
-          <p>Registration</p>
-          <ul>
-            <li>REGISTRATION BENEFITS</li>
-            <li>REGISTRATION FEES</li>
-            <li>ONLINE REGISTRATION</li>
-            <li>PAYMENT DETAILS</li>
-            <li>TERMS & CONDITIONS</li>
-          </ul>
+        <div class="program-item">
+          <img src="assets/program_icon_04.png" alt="program-icon4">
+          <span>Registration</span>
+          <p>
+            REGISTRATION BENEFITS
+            REGISTRATION FEES
+            ONLINE REGISTRATION
+            PAYMENT DETAILS
+            TERMS & CONDITIONS
+          </p>
         </div>
+
+        <button type="button">
+          Register for AGRICO 2023
+        </button>
       </section>
       <section class="speakers">
         
@@ -165,8 +178,8 @@
     </section>
   </main>
 
-  <footer>
-    <div class="logo">
+  <footer class="flex">
+    <div class="f-logo">
       <img src="assets/icons_logos/organizer-logo.png" alt="organizer_logo">
     </div>
     <div class="organizer">
