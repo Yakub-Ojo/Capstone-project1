@@ -1,0 +1,80 @@
+.abt-header {
+  padding-bottom: 20px;
+  background-color: #d3d3d3;
+}
+.abt-heading {
+  color: #ec5242;
+  font-size: large;
+  font-weight: 700;
+  line-height: 44px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.abt-conf {
+  color: #272a31;
+  line-height: 20px;
+  font-size: 12px;
+  margin: 20px;
+  background-color: #d3d3d300;
+  box-shadow: 2px 2px 6px #b4aeae;
+  border-radius: 4px;
+  padding: 18px 12px;
+  opacity: 1;
+  align-self: center;
+}
+
+.about {
+  background-color: #272a31;
+  padding: 1px 0;
+}
+
+.contact {
+  margin-bottom: 1px;
+  padding: 8px 10px;
+  background-color: #d3d3d3;
+  mix-blend-mode: screen;
+  backdrop-filter: blur(2px);
+  display: grid;
+  gap: 10px;
+}
+
+.contact-card {
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ec5242;
+  box-shadow: 2px 2px 6px #b4aeae;
+  border-radius: 4px;
+  line-height: 32px;
+  padding: 8px 12px;
+  margin: 10px 5px;
+}
+
+.name {
+  color: #282a32;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.summit {
+  display: grid;
+  background-color: #d3d3d3;
+  gap: 20px;
+  padding: 8px 12px;
+
+}
+
+.summit-card {
+  border: 1px solid red;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-img {
+}
+
+.card-img img {
+  width: 50%;
+}
