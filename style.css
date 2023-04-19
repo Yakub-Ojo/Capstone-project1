@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&family=Lato:ital,wght@0,400;0,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
 font-family: 'Lato', sans-serif;
@@ -12,7 +17,7 @@ ul {
   display: flex;
 }
 
-header {
+.header {
   background-image: url(assets/icons_logos/main-bg.jpg);
   background-position: 100%;
   background-repeat: no-repeat;
@@ -41,17 +46,26 @@ nav {
 }
 .heading h1 {
   color: #ec5242;
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: 900;
   line-height: 44px;
+  margin-bottom: 20px;
   
 }
 
-.abt-conf {
-  color: #d3d3d3;
+.conf {
+  color: #ec5242;
   line-height: 20px;
   font-size: 16px;
   margin-bottom: 20px;
+  background-color: #d3d3d3;
+  box-shadow: 2px 2px 2px rgb(228, 224, 224);
+  border-radius: 4px;
+  padding: 18px 12px;
+  opacity: 1;
+  margin-right: 20px;
+  /* mix-blend-mode:screen;
+  backdrop-filter: blur(12px); */
 }
 
 .date-time {
@@ -84,12 +98,12 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-size: 12px;
-  gap: 20px;
   background-color: #3b3e45;
   margin-bottom: 10px;
   border-radius: 4px;
   mix-blend-mode:screen;
-  backdrop-filter: blur(-5px);
+  backdrop-filter: blur(2px);
+  padding: 10px 0;
 }
 /* 
 .program-item img {
@@ -102,14 +116,17 @@ nav {
 }
 
 .program-item span {
-  width: 50px;
-  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+  width: 75px;
+  margin-left: 0px;
   color: #ec5242
 }
 
 .program-item p {
   width: 200px;
   color: #d3d3d3;
+  margin-left: 10px;
 }
 
 .programs button {
@@ -130,8 +147,7 @@ footer {
   align-items: center;
   padding: 8px 12px;
   width: 100%;
-  position: relative;
-  bottom: 0;
+  position: absolute;
   left: 0;
   color: #d3d3d3;
   font-size: 10px;
@@ -139,11 +155,6 @@ footer {
 
 }
 
-.f-logo {
-}
 .f-logo img {
   width: 100%;
-}
-
-.organizer {
 }
