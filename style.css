@@ -103,7 +103,7 @@ nav {
   border-radius: 4px;
   mix-blend-mode:screen;
   backdrop-filter: blur(2px);
-  padding: 10px 0;
+  padding: 10px 4px;
 }
 /* 
 .program-item img {
@@ -116,11 +116,10 @@ nav {
 }
 
 .program-item span {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 600;
   width: 75px;
-  margin-left: 0px;
-  color: #ec5242
+  color: #ec5242;
 }
 
 .program-item p {
@@ -157,4 +156,11 @@ footer {
 
 .f-logo img {
   width: 100%;
+}
+
+/* ------------------------Desktop Version--------------------------*/
+
+
+ 
+  
 }
