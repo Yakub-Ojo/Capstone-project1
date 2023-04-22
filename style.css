@@ -151,21 +151,28 @@ nav {
 .program-details button:hover {
   cursor: pointer;
 }
+
 footer {
-  background-color: #272a31;
-  gap: 20px;
-  align-items: center;
+  background-color: #ffffff;
   padding: 8px 12px;
   width: 100%;
   position: absolute;
   left: 0;
-  color: #d3d3d3;
+  color: #000000;
   font-size: 10px;
   line-height: 12px;
 }
 
+footer div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 4px 10px;
+}
+
 .f-logo img {
   width: 100%;
+  background-color: #000000;
 }
 
 .speakers {
@@ -219,6 +226,47 @@ footer {
   font-size: 11px;
   margin-top: 20px;
 }
+.des-partners {
+  display: none;
+}
+.partners {
+  background-color: #414246;
+  padding: 20px;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners h5 {
+  margin-bottom: 35px;
+  color: #d3d3d3;
+}
+
+
+.partners-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+  padding: 0 10px 10px 20px;
+}
+
+.partners-image img {
+  width: 100%;
+}
+
+.sep-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.sep-img img {
+  width: 45%;
+}
 
 
 /* ------------------------Desktop Version--------------------------*/
@@ -253,7 +301,7 @@ footer {
 
   .main-link {
     margin-right: 55px;
-
+    border: 10px solid #ec5242;
     
   }
   .menu-right {
@@ -355,7 +403,6 @@ footer {
 
 .speaker-cont {
   width: 100%;
-  border: 1px solid red;
 }
 
 .speaker-title p {
@@ -389,6 +436,75 @@ footer {
 .speaker-add {
   font-size: 21px;
   margin-top: 50px;
+}
+
+footer {
+  background-color: #272a31;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #272a31;
+  gap: 20px;
+  align-items: center;
+  color: #d3d3d3;
+  font-size: 18px;
+}
+
+.organizer {
+  width: 50%;
+  line-height: 25px;
+}
+
+.des-partners {
+  display: flex;
+  background-color: #414246;
+  padding: 20px;
+  font-size: 40px;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.partners {
+  display: none;
+  
+}
+
+.partner-head {
+  margin-bottom: 60px;
+}
+
+.partners h5 {
+  margin-bottom: 25px;
+  color: #d3d3d3;
+}
+
+
+.partners-image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 0 10px 10px 20px;
+}
+
+.partners-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.sep-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.sep-img img {
+  width: 45%;
 }
 
   
